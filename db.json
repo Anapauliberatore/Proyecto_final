@@ -1,0 +1,142 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "usuario": "Rosario Galarza",
+      "password": "1234"
+    },
+    {
+      "id": "2",
+      "usuario": "Ana",
+      "password": "1234"
+    },
+    {
+      "id": "3",
+      "usuario": "Juelita",
+      "password": "1234"
+    },
+    {
+      "id": "4",
+      "usuario": "Suarez",
+      "password": "1234"
+    },
+    {
+      "id": "5",
+      "usuario": "Laura",
+      "password": "1234"
+    },
+    {
+      "id": "6",
+      "usuario": "LATECLA",
+      "password": "1234"
+    }
+  ],
+  "clientes": [
+    {
+      "id": "1",
+      "nombre_apellido": "Galarza, Rosario",
+      "telefono": 3814694635,
+      "gmail": "rosariolacuchillera@gmail.com"
+    },
+    {
+      "id": "2",
+      "nombre_apellido": "Brito, Julieta",
+      "telefono": 38167594635,
+      "gmail": "brito.juelieta@gmail.com"
+    },
+    {
+      "id": "3",
+      "nombre_apellido": "Liberatore, Ana",
+      "telefono": 38123494635,
+      "gmail": "anala.liberatores@gmail.com"
+    },
+    {
+      "id": "4",
+      "nombre_apellido": "Suarez, José",
+      "telefono": 3814692345,
+      "gmail": "suares.jose@gmail.com"
+    },
+    {
+      "id": "5",
+      "nombre_apellido": "Martínez, Laura",
+      "telefono": 3811234567,
+      "gmail": "laura.martinez@gmail.com"
+    },
+    {
+      "id": "6",
+      "nombre_apellido": "Pérez, Marcos",
+      "telefono": 3817654321,
+      "gmail": "marcos.perez@gmail.com"
+    },
+    {
+      "id": "7",
+      "nombre_apellido": "Fernández, Lucía",
+      "telefono": 3813456789,
+      "gmail": "lucia.fernandez@gmail.com"
+    },
+    {
+      "id": "8",
+      "nombre_apellido": "Ramírez, Jorge",
+      "telefono": 3818765432,
+      "gmail": "jorge.ramirez@gmail.com"
+    },
+    {
+      "nombre_apellido": "Maranto, Camila",
+      "telefono": 3819876543,
+      "gmail": "camila.torres@gmail.com",
+      "id": "9"
+    }
+  ],
+  "productos": [
+    {
+      "id": "1",
+      "nombre_de_producto": "chapas",
+      "precio": 5000
+    },
+    {
+      "id": "2",
+      "nombre_de_producto": "columnas",
+      "precio": 10000
+    },
+    {
+      "id": "3",
+      "nombre_de_producto": "cemento",
+      "precio": 4500
+    },
+    {
+      "id": "4",
+      "nombre_de_producto": "arena",
+      "precio": 3000
+    },
+    {
+      "id": "5",
+      "nombre_de_producto": "ladrillos",
+      "precio": 25000
+    },
+    {
+      "id": "6",
+      "nombre_de_producto": "hierros",
+      "precio": 15000
+    },
+    {
+      "id": "7",
+      "nombre_de_producto": "cal",
+      "precio": 2800
+    },
+    {
+      "id": "8",
+      "nombre_de_producto": "pintura exterior",
+      "precio": 12000
+    },
+    {
+      "id": "9",
+      "nombre_de_producto": "membrana",
+      "precio": 9800
+    },
+    {
+      "id": "10",
+      "nombre_de_producto": "revestimiento",
+      "precio": 14500
+    }
+  ]
+}
