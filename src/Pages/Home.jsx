@@ -1,14 +1,16 @@
-import React from 'react'
+import Main from "../Components/Main";
+import Clientescrud from "../Components/CONSTRUCTORACRUD/Clientescrud"
+import EditarclientePage from "./EditarclientePage";
 
 const Home = () => {
   return (
     <div>
-      <Header />
-      <Main />
-      <Formulario />
-      <Footer />
-    </div>
-  )
-}
 
-export default Home
+      <EditarclientePage />
+      <Main />
+
+    </div>
+  );
+};
+
+export default Home;
