@@ -1,0 +1,51 @@
+/* formulario.css */
+
+form {
+  max-width: 600px;
+  margin: auto;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+input.form-control {
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+button[type="button"] {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.tipo-cliente-inputs {
+  margin-bottom: 15px;
+}
+
+.tipo-cliente-inputs select {
+  border-radius: 8px;
+}
+
+.tipo-cliente-inputs .btn {
+  height: 38px;
+  padding: 0 12px;
+}
+
+.tipo-cliente-inputs select {
+  border-radius: 8px;
+}
+
+.tipo-cliente-inputs .btn {
+  height: 38px;
+  padding: 0 12px;
+}
