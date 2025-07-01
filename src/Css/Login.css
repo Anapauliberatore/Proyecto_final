@@ -1,0 +1,30 @@
+.logo-login{
+  width: 350px;
+}
+
+.login-form {
+    
+    color: #5e0000;
+
+}
+
+.login-contenedor{
+    color: rgba(127, 3, 3, 0.181);
+
+
+}
+
+.boton-logo {
+color:rgb(255, 255, 255);
+
+
+
+}
+
+
+
+.datos {
+  background-color: #6e00004a; /* color de fondo */
+  color: #000000;               /* color del texto */
+  border: 1px solid #000000;    /* opcional: color del borde */
+}
