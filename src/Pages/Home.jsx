@@ -1,8 +1,6 @@
 
 
-import Clientescrud from "../Components/CONSTRUCTORACRUD/Clientescrud"
 import Footer from "../Components/Footer"
-import Header from "../Components/Header"
 import Main from "../Components/Main"
 
 
