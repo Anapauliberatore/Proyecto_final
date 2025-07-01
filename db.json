@@ -7,104 +7,147 @@
     }
   ],
   "clientes": [
-  {
-    "id": "1",
-    "nombre_apellido": "Liberatore, Ana Paula",
-    "telefono": 38123494635,
-    "email": "anala.liberatores@gmail.com",
-    "direccion": "San Miguel de Tucumán",
-    "tipo_cliente": ["brs", "particuolar"]
-  },
-  {
-    "id": "2",
-    "nombre_apellido": "Paz, Marcos",
-    "telefono": 38123456789,
-    "email": "marcos.paz@gmail.com",
-    "direccion": "Yerba Buena",
-    "tipo_cliente": ["CompraCasa", "AlquilaDepto"]
-  },
-  {
-    "id": "3",
-    "nombre_apellido": "Ríos, Camila",
-    "telefono": 38123456890,
-    "email": "camila.rios89@gmail.com",
-    "direccion": "Tafí Viejo",
-    "tipo_cliente": ["CompraTerreno"]
-  },
-  {
-    "id": "4",
-    "nombre_apellido": "Gutiérrez, Juan",
-    "telefono": 38123456901,
-    "email": "juan.gutierrez@gmail.com",
-    "direccion": "Concepción",
-    "tipo_cliente": ["AlquilaDepto", "EnEsperaConstruccion"]
-  },
-  {
-    "id": "5",
-    "nombre_apellido": "Molina, Florencia",
-    "telefono": 38123456902,
-    "email": "flor.molina@gmail.com",
-    "direccion": "Famaillá",
-    "tipo_cliente": ["CompraCasa"]
-  },
-  {
-    "id": "6",
-    "nombre_apellido": "Ramírez, Diego",
-    "telefono": 38123456903,
-    "email": "diego.ramirez@gmail.com",
-    "direccion": "Monteros",
-    "tipo_cliente": ["CompraTerreno", "CompraCasa"]
-  },
-  {
-    "id": "7",
-    "nombre_apellido": "Sosa, Natalia",
-    "telefono": 38123456904,
-    "email": "natalia.sosa@gmail.com",
-    "direccion": "Lules",
-    "tipo_cliente": ["AlquilaDepto"]
-  },
-  {
-    "id": "8",
-    "nombre_apellido": "Acosta, Fernando",
-    "telefono": 38123456905,
-    "email": "fernando.acosta@gmail.com",
-    "direccion": "Banda del Río Salí",
-    "tipo_cliente": ["CompraCasa"]
-  },
-  {
-    "id": "9",
-    "nombre_apellido": "Gómez, Mariana",
-    "telefono": 38123456906,
-    "email": "mariana.gomez@gmail.com",
-    "direccion": "Alderetes",
-    "tipo_cliente": ["CompraTerreno", "CompraCasa"]
-  },
-  {
-    "id": "10",
-    "nombre_apellido": "Herrera, Pablo",
-    "telefono": 38123456907,
-    "email": "pablo.herrera@gmail.com",
-    "direccion": "Aguilares",
-    "tipo_cliente": ["EnEsperaConstruccion"]
-  },
-  {
-    "id": "11",
-    "nombre_apellido": "Vega, Lucía",
-    "telefono": 38123456908,
-    "email": "lucia.vega@gmail.com",
-    "direccion": "Bella Vista",
-    "tipo_cliente": ["AlquilaDepto"]
-  },
-  {
-    "id": "12",
-    "nombre_apellido": "López, Javier",
-    "telefono": 38123456909,
-    "email": "javier.lopez@gmail.com",
-    "direccion": "Simoca",
-    "tipo_cliente": ["CompraCasa"]
-  }
-],
-
+    {
+      "id": "1",
+      "nombre_apellido": "Liberatore, Ana Paula",
+      "telefono": 38123494635,
+      "email": "anala.liberatores@gmail.com",
+      "direccion": "San Miguel de Tucumán",
+      "tipo_cliente": [
+        "particuolar",
+        "gotica",
+        "Gubernamental",
+        "Arrendatario",
+        "Inversor",
+        "Otro"
+      ]
+    },
+    {
+      "id": "2",
+      "nombre_apellido": "Paz, Marcos",
+      "telefono": 38123456789,
+      "email": "marcos.paz@gmail.com",
+      "direccion": "Yerba Buena",
+      "tipo_cliente": [
+        "CompraCasa",
+        "AlquilaDepto"
+      ]
+    },
+    {
+      "id": "3",
+      "nombre_apellido": "Ríos, Camila",
+      "telefono": 38123456890,
+      "email": "camila.rios89@gmail.com",
+      "direccion": "Tafí Viejo",
+      "tipo_cliente": [
+        "CompraTerreno"
+      ]
+    },
+    {
+      "id": "4",
+      "nombre_apellido": "Gutiérrez, Juan",
+      "telefono": 38123456901,
+      "email": "juan.gutierrez@gmail.com",
+      "direccion": "Concepción",
+      "tipo_cliente": [
+        "AlquilaDepto",
+        "EnEsperaConstruccion"
+      ]
+    },
+    {
+      "id": "5",
+      "nombre_apellido": "Molina, Florencia",
+      "telefono": 38123456902,
+      "email": "flor.molina@gmail.com",
+      "direccion": "Famaillá",
+      "tipo_cliente": [
+        "CompraCasa"
+      ]
+    },
+    {
+      "id": "6",
+      "nombre_apellido": "Ramírez, Diego",
+      "telefono": 38123456903,
+      "email": "diego.ramirez@gmail.com",
+      "direccion": "Monteros",
+      "tipo_cliente": [
+        "CompraTerreno",
+        "CompraCasa"
+      ]
+    },
+    {
+      "id": "7",
+      "nombre_apellido": "Sosa, Natalia",
+      "telefono": 38123456904,
+      "email": "natalia.sosa@gmail.com",
+      "direccion": "Lules",
+      "tipo_cliente": [
+        "AlquilaDepto"
+      ]
+    },
+    {
+      "id": "8",
+      "nombre_apellido": "Acosta, Fernando",
+      "telefono": 38123456905,
+      "email": "fernando.acosta@gmail.com",
+      "direccion": "Banda del Río Salí",
+      "tipo_cliente": [
+        "CompraCasa"
+      ]
+    },
+    {
+      "id": "9",
+      "nombre_apellido": "Gómez, Mariana",
+      "telefono": 38123456906,
+      "email": "mariana.gomez@gmail.com",
+      "direccion": "Alderetes",
+      "tipo_cliente": [
+        "CompraTerreno",
+        "CompraCasa"
+      ]
+    },
+    {
+      "id": "10",
+      "nombre_apellido": "Herrera, Pablo",
+      "telefono": 38123456907,
+      "email": "pablo.herrera@gmail.com",
+      "direccion": "Aguilares",
+      "tipo_cliente": [
+        "EnEsperaConstruccion"
+      ]
+    },
+    {
+      "id": "11",
+      "nombre_apellido": "Vega, Lucía",
+      "telefono": 38123456908,
+      "email": "lucia.vega@gmail.com",
+      "direccion": "Bella Vista",
+      "tipo_cliente": [
+        "AlquilaDepto"
+      ]
+    },
+    {
+      "id": "12",
+      "nombre_apellido": "López, Javier",
+      "telefono": 38123456909,
+      "email": "javier.lopez@gmail.com",
+      "direccion": "Simoca",
+      "tipo_cliente": [
+        "CompraCasa"
+      ]
+    },
+    {
+      "id": "2ad4",
+      "nombre_apellido": "fwef",
+      "telefono": "wfe",
+      "email": "wfe@few",
+      "direccion": "wefewf",
+      "tipo_cliente": [
+        "Otro",
+        "Gubernamental"
+      ]
+    }
+  ],
   "construcciones": [
     {
       "id": "1",

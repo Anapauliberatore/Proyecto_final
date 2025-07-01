@@ -1,11 +1,22 @@
-import Editarcliente from "../Components/CONSTRUCTORACRUD/Editarcliente";
+
 import React from 'react'
-//IMPORTAR TMB EL HEADER Y EL FOOTER 
+import Editarcliente from '../Components/CONSTRUCTORACRUD/Editarcliente'
+import { useParams } from "react-router-dom";
+import Footer from '../Components/Footer';
+
 const EditarclientePage = () => {
+    const { id } = useParams();
+
   return (
-    <div>
-        
-      <Editarcliente/>
+    <div>EditarclientePage
+      <div style={{ height: "80px" }}></div>
+
+
+        <Editarcliente/>
+
+        <div style={{ height: "80px" }}></div>
+
+        <Footer/>
     </div>
   )
 }

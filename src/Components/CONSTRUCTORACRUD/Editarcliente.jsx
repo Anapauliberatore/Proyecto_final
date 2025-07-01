@@ -1,9 +1,10 @@
+
 import { Button } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { URL_CLIENTES } from '../../Constants/endpoints';
 import { useParams, useNavigate } from 'react-router-dom';
-import { HOME } from '../../Routers/router';
+import { TABLACLIENTE } from '../../Routers/router';
 import '../../css/Formulario.css';
 
 
@@ -52,7 +53,7 @@ const agregar_tipo_cliente = () => {
       const response = await axios.put(`${URL_CLIENTES}/${id}`, datos);
       setDatos(response.data);
       if (response) {
-        navigate(HOME);
+        navigate(TABLACLIENTE);
       }
     } catch (error) {
       console.error("Error al actualizar el cliente:", error);
@@ -138,51 +139,10 @@ const agregar_tipo_cliente = () => {
   ))}
 </div>
 
-      {/* <div className="mb-3">
-        <label className="form-label">Tipo de cliente</label>
-        {datos.tipo_cliente.map((tipo, index) => (
-          <div key={index}>
-            <select
-              className="form-control"
-              value={tipo}
-              onChange={(e) => handle_tipo_cliente(index, e.target.value)}
-            >
-              <option value="">Seleccione</option>
-              <option value="Particular">Particular</option>
-              <option value="Empresa">Empresa</option>
-              <option value="Gubernamental">Gubernamental</option>
-              <option value="Inversor">Inversor</option>
-              <option value="Otro">Otro</option>
-            </select>
-          </div>
-        ))}
-
-        {/* Barra desplegable para agregar nuevo tipo */}
-        {/* <div className="mt-2">
-          <select
-            className="form-control"
-            defaultValue=""
-            onChange={(e) => {
-              if (e.target.value) {
-                agregar_tipo_cliente(e.target.value);
-                e.target.value = ""; // reset al valor por defecto
-              }
-            }}
-          >
-            <option value="">Seleccione un tipo</option>
-            <option value="Particular">Particular</option>
-            <option value="Empresa">Empresa</option>
-            <option value="Gubernamental">Gubernamental</option>
-            <option value="Inversor">Inversor</option>
-            <option value="Otro">Otro</option>
-          </select>
-        </div>
-      </div> */} 
-
-      {/* Botones dentro del form */}
+     
       <div className="d-flex justify-content-end gap-2 mt-4">
         <Button type="submit" variant="success">Guardar Cambios</Button>
-        <Button variant="danger" onClick={() => navigate(HOME)}>Cancelar</Button>
+        <Button variant="danger" onClick={() => navigate(TABLACLIENTE)}>Cancelar</Button>
       </div>
     </form>
   </div>
