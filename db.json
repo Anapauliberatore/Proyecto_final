@@ -176,8 +176,6 @@
       "cliente": "Núñez Javier",
       "arquitecto": "López Marta"
     },
-  
-  
   {
     "id": "8",
     "ubicacion": "Concepción",
@@ -239,5 +237,4 @@
     "arquitecto": "Reyes Gabriela"
   }
 ]
-
 }
