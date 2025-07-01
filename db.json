@@ -219,65 +219,75 @@
       "cliente": "Núñez Javier",
       "arquitecto": "López Marta"
     },
-  {
-    "id": "8",
-    "ubicacion": "Concepción",
-    "metrosC": 190,
-    "cantitad_de_obreros": 12,
-    "precio": 15500000,
-    "precio_mano_obra": 5200000,
-    "cliente": "Paz Andrea",
-    "arquitecto": "Gómez Ricardo"
-  },
-  {
-    "id": "9",
-    "ubicacion": "Monteros",
-    "metrosC": 230,
-    "cantitad_de_obreros": 16,
-    "precio": 18500000,
-    "precio_mano_obra": 6000000,
-    "cliente": "Herrera Carlos",
-    "arquitecto": "Acosta Romina"
-  },
-  {
-    "id": "10",
-    "ubicacion": "Aguilares",
-    "metrosC": 170,
-    "cantitad_de_obreros": 10,
-    "precio": 13000000,
-    "precio_mano_obra": 4200000,
-    "cliente": "Vega Lorena",
-    "arquitecto": "Fernández Hugo"
-  },
-  {
-    "id": "11",
-    "ubicacion": "Simoca",
-    "metrosC": 140,
-    "cantitad_de_obreros": 9,
-    "precio": 11000000,
-    "precio_mano_obra": 3700000,
-    "cliente": "Salas Martín",
-    "arquitecto": "Ponce Cecilia"
-  },
-  {
-    "id": "12",
-    "ubicacion": "Alderetes",
-    "metrosC": 200,
-    "cantitad_de_obreros": 13,
-    "precio": 16000000,
-    "precio_mano_obra": 5300000,
-    "cliente": "Mansilla Beatriz",
-    "arquitecto": "Luna Esteban"
-  },
-  {
-    "id": "13",
-    "ubicacion": "Banda del Río Salí",
-    "metrosC": 240,
-    "cantitad_de_obreros": 15,
-    "precio": 19000000,
-    "precio_mano_obra": 6500000,
-    "cliente": "Cano Sergio",
-    "arquitecto": "Reyes Gabriela"
-  }
-]
+    {
+      "id": "8",
+      "ubicacion": "Concepción",
+      "metrosC": 190,
+      "cantitad_de_obreros": 12,
+      "precio": 15500000,
+      "precio_mano_obra": 5200000,
+      "cliente": "Paz Andrea",
+      "arquitecto": "Gómez Ricardo"
+    },
+    {
+      "id": "9",
+      "ubicacion": "Monteros",
+      "metrosC": 230,
+      "cantitad_de_obreros": 16,
+      "precio": 18500000,
+      "precio_mano_obra": 6000000,
+      "cliente": "Herrera Carlos",
+      "arquitecto": "Acosta Romina"
+    },
+    {
+      "id": "10",
+      "ubicacion": "Aguilares",
+      "metrosC": 170,
+      "cantitad_de_obreros": 10,
+      "precio": 13000000,
+      "precio_mano_obra": 4200000,
+      "cliente": "Vega Lorena",
+      "arquitecto": "Fernández Hugo"
+    },
+    {
+      "id": "11",
+      "ubicacion": "Simoca",
+      "metrosC": 140,
+      "cantitad_de_obreros": 9,
+      "precio": 11000000,
+      "precio_mano_obra": 3700000,
+      "cliente": "Salas Martín",
+      "arquitecto": "Ponce Cecilia"
+    },
+    {
+      "id": "12",
+      "ubicacion": "Alderetes",
+      "metrosC": 200,
+      "cantitad_de_obreros": 13,
+      "precio": 16000000,
+      "precio_mano_obra": 5300000,
+      "cliente": "Mansilla Beatriz",
+      "arquitecto": "Luna Esteban"
+    },
+    {
+      "id": "13",
+      "ubicacion": "Banda del Río Salí",
+      "metrosC": 240,
+      "cantitad_de_obreros": 15,
+      "precio": 19000000,
+      "precio_mano_obra": 6500000,
+      "cliente": "Cano Sergio",
+      "arquitecto": "Reyes Gabriela"
+    },
+    {
+      "id": "0420",
+      "ubicacion": "xasxsa",
+      "metrosC": "asxs",
+      "cantidad_de_obreros": "asxsax",
+      "precio": "xsaxas",
+      "precio_mano_obra": "asxasx",
+      "cliente": "saxasx",
+      "arquitecto": "saxsaxsx"
+    }
+  ]
 }

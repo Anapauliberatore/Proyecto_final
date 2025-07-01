@@ -1,0 +1,98 @@
+.header {
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 5px 30px; 
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+  flex-shrink: 0;
+  margin-top: 0;    
+  padding-top: 0; 
+}
+
+/* NavLink base y activo */
+.nav-link {
+  text-decoration: none;
+  color: rgba(123, 0, 0, 0.3);
+  font-weight: 540;
+  font-size: 20px;
+  transition: color 0.3s, background-color 0.3s;
+  padding: 5px 10px; /* Padding fijo igual para base y activo */
+  border-radius: 4px;
+}
+
+.nav-link.activo {
+  background-color: #5a0505;
+  color: white;
+  font-weight: bold;
+  /* padding igual que base, para evitar movimiento */
+}
+
+/* Botones tabla y logout */
+.tabla,
+.logout-button {
+  background: transparent; /* transparente */
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px; /* mismo padding que nav-link */
+  font: inherit;
+  color: #8a0e0e;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px; /* igual que nav-link */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  outline: none; /* elimina el borde azul del foco */
+}
+
+.tabla:hover,
+.logout-button:hover,
+.tabla:focus,
+.logout-button:focus,
+.tabla:active,
+.logout-button:active {
+  background-color: #5a0505;
+  color: white;
+  font-weight: bold;
+  outline: none;
+}
+
+/* Logo */
+.logo {
+  height: 70px;
+  width: auto;
+  display: block;
+  margin-top: 0;    
+  padding: 0;   
+}
+
+/* Lista de navegación */
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Otros estilos para links */
+.nav a {
+  text-decoration: none;
+  color: #7b0000;
+  font-weight: 540;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #640f1a;
+}
