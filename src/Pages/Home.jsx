@@ -1,13 +1,14 @@
 import Main from "../Components/Main";
-import Clientescrud from "../Components/CONSTRUCTORACRUD/Clientescrud"
 import EditarclientePage from "./EditarclientePage";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
     <div>
-
+     
       <EditarclientePage />
       <Main />
+       <Footer/>
 
     </div>
   );
