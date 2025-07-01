@@ -1,16 +1,39 @@
-import Main from "../Components/Main";
-import Clientescrud from "../Components/CONSTRUCTORACRUD/Clientescrud"
-import EditarclientePage from "./EditarclientePage";
+
+
+import Footer from "../Components/Footer"
+import Main from "../Components/Main"
+
+
+
 
 const Home = () => {
+
+
+
+
+
+    
   return (
     <div>
 
-      <EditarclientePage />
-      <Main />
+          
+            
+            <div style={{ height: "80px" }}></div>
+           
+
+            
+            
+
+      
+            <Main />
+          
+
+
+
+            <Footer />
 
     </div>
-  );
-};
+  )
+}
 
 export default Home;

@@ -1,0 +1,47 @@
+    body {
+        --min-height: 100% !important;
+    }
+    
+    .titulo-ver-construcciones {
+        text-align: center;
+    }
+    
+    .tabla-ver-construcciones {
+        border: 1px solid;
+        margin: 30px auto;
+        table-layout: fixed;
+        border-collapse: collapse;
+    }
+    
+    .tabla-ver-construcciones th,
+    .tabla-ver-construcciones td {
+        background-color: #f2f2f2;
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ab9595;
+    }
+    
+    .tabla-ver-construcciones ul {
+        margin: 0;
+        text-align: start;
+    }
+    
+    .tabla-ver-construcciones .boton-ver {
+        display: block;
+        margin: 30px auto;
+        padding: 8px 16px;
+        text-decoration: none;
+        font-weight: bold;
+        --color: #000;
+        border: none;
+        background-color: #007bff;
+        border-radius: 8px;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        cursor: pointer;
+    }
+    
+    .boton-ver:hover {
+        opacity: 0.8;
+        color: #131db2;
+        text-shadow: 2px 2px 4px rgba(34, 169, 181, 0.4);
+    }

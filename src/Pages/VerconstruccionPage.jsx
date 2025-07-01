@@ -1,23 +1,21 @@
 import React from 'react'
-import Editarconstruccion from '../Components/CONSTRUCTORACRUD/Editarconstruccion'
+import Verconstruccion from '../Components/CONSTRUCTORACRUD/Verconstruccion'
 import { useParams } from "react-router-dom";
 import Footer from '../Components/Footer';
 
-const EditarconstruccionPage = () => {
+const VerconstruccionPage = () => {
   const { id } = useParams();
+  
+
   return (
     <div>
       <div style={{ height: "80px" }}></div>
-      
-      
 
-        <Editarconstruccion/>
+        <Verconstruccion/>
 
         <Footer/>
-
-
     </div>
   )
 }
 
-export default EditarconstruccionPage
+export default VerconstruccionPage;
