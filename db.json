@@ -151,6 +151,7 @@
   "construcciones": [
     {
       "id": "1",
+
       "ubicacion": "gotica",
       "metrosC": 200,
       "cantitad_de_obreros": 12,
@@ -280,4 +281,5 @@
     "arquitecto": "Reyes Gabriela"
   }
 ]
+
 }
