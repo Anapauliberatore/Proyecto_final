@@ -1,5 +1,4 @@
 import React from 'react';
-
 import logo from '../assets/logo empresa.jpeg';
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import "../css/Footer.css";

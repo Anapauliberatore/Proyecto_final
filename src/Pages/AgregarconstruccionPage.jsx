@@ -11,7 +11,7 @@ const Crearconstruccion = () => {
 
       <Agregarconstrucciones/>
       <div style={{ height: "59px" }}></div>
-      <Footer/>
+
     </div>
   )
 }

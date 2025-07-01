@@ -8,13 +8,10 @@ import { HOME } from "../Routers/router";
 import "../CSS/Login.css";
 import logoedifica from '../assets/logoedifica.jpg';
 
-
 function Login() {
   const [usuario, setUsuario] = useState("");
   const [password, setPassword] = useState("");
   const [datos, setDatos] = useState([]);
-
-
   const navigate = useNavigate();
   const { login } = useContext(LoginPermisoContext);
 
@@ -63,7 +60,6 @@ function Login() {
           required
         />
         <button className="boton-logo" type="submit">Ingresar</button>
-
       </form>
     </div>
   );
