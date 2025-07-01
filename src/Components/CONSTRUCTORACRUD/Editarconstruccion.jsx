@@ -3,8 +3,7 @@ import {useState, useEffect} from 'react';
 import axios from 'axios';
 import { URL_CONSTRUCCIONES } from '../../Constants/endpoints';
 import { useParams, useNavigate} from 'react-router-dom';
-import {HOME} from '../../Routers/router';
-import '../../css/Formulario.css';
+import {TABLACONSTRUCCIONES} from '../../Routers/router';
 
 const Editarconstruccion = () => {
 
@@ -36,7 +35,7 @@ const handleSubmit = async (e) => {
     const response = await axios.put(`${URL_CONSTRUCCIONES}/${id}`, datos);
     setDatos(response.data);
     if (response) {
-      navigate(HOME);
+      navigate(TABLACONSTRUCCIONES);
     }
   } catch (error) {
     console.error("Error al actualizar datos de construccion:", error);
@@ -45,10 +44,10 @@ const handleSubmit = async (e) => {
 
   return (
     <div>
-      <h2>Editar Construcción</h2>
+      <h2>Editar Construccion</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
-          <label className="form-label">Ubicación</label>
+          <label className="form-label">Ubicacion</label>
           <input
             type="text"
             className="form-control"
@@ -119,13 +118,10 @@ const handleSubmit = async (e) => {
           />
         </div>
         
-      <div className="d-flex justify-content-end gap-2 mt-4">
-        <Button type="submit" variant="success">Guardar Cambios</Button>
-        <Button variant="danger" onClick={() => navigate(HOME)}>Cancelar</Button>
-      </div>
 
-        {/* <Button type="submit" variant="primary">Guardar Cambios</Button>
-        <Button variant="secondary" onClick={() => navigate(HOME)}>Cancelar</Button> */}
+
+        <Button type="submit" variant="primary">Guardar Cambios</Button>
+        <Button variant="secondary" onClick={() => navigate(TABLACONSTRUCCIONES)}>Cancelar</Button>
       </form>
 
 
