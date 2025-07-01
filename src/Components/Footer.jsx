@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import logo from '../assets/logo empresa.jpeg';
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
 const Footer = () => {
   return (
