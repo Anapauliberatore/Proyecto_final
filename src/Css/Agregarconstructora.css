@@ -1,0 +1,28 @@
+.for-constructora {
+  background-color: #61030335; 
+  padding: 20px;
+  border-radius: 8px; 
+}
+.bot-guardar {
+  width: 120px;           
+  padding: 6px 0;         
+  
+  font-size: 16px;       
+  background-color: rgba(119, 0, 0, 0.681);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;     
+}
+
+.bot-cancelar
+{
+  background-color: #6b001562;
+}
+
+.fondo-pag {
+  background-color: #83000062; 
+  padding: 20px;
+  border-radius: 8px; 
+}
