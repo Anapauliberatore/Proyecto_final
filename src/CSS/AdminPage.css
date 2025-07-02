@@ -1,0 +1,66 @@
+.tabla-con-botones {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: start;
+    gap: 8px;
+}
+
+.table th,
+.table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px 12px;
+    height: 56px;
+}
+
+.col-id {
+    width: 60px;
+    white-space: nowrap;
+}
+
+.col-apellido {
+    width: 150px;
+    white-space: nowrap;
+}
+
+.col-nombre {
+    width: 250px;
+    white-space: nowrap;
+}
+
+.col-tipo {
+    width: 120px;
+    white-space: nowrap;
+}
+
+.columna-botones {
+    display: flex;
+    flex-direction: column;
+    padding-top: 56px;
+    /* para alinear con la tabla sin botón en la primera fila */
+}
+
+.iconos-acciones {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.iconos-acciones button {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

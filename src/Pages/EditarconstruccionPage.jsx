@@ -1,11 +1,21 @@
-import Editarconstruccion from "../Components/CONSTRUCTORACRUD/Editarconstruccion";
 import React from 'react'
+import Editarconstruccion from '../Components/CONSTRUCTORACRUD/Editarconstruccion'
+import { useParams } from "react-router-dom";
+import Footer from '../Components/Footer';
 
-//IMPORTAR EL HEADER Y EL FOOTER 
 const EditarconstruccionPage = () => {
+  const { id } = useParams();
   return (
     <div>
-      <Editarconstruccion/>
+      <div style={{ height: "80px" }}></div>
+      
+      
+
+        <Editarconstruccion/>
+
+        <Footer/>
+
+
     </div>
   )
 }

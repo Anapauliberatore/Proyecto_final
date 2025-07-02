@@ -1,8 +1,20 @@
 export const HOME = "/";
+export const LOGIN = "/login";
 
-export const AGREGARCLIENTE = "/agregarcliente";
 export const AGREGARCONSTRUCCIONES = "/agregarconstrucciones";
-export const EDITARCLIENTE= "/editarcliente/:id";
-export const EDITARCONSTRUCCION ="/editarconstruccion/:id";
-export const VERCONSTRUCCION="/verconstruccion/:id";
-export const VERCLIENTE ="/vercliente/:id";
+
+
+export const AGREGARCLIENTEPAGE = "/agregarclientepages"
+export const AGREGARCONSTRUCCIONPAGE ="/agregarconstrucionespages"
+
+export const TABLACLIENTE = "/tablaclientes"
+export const TABLACONSTRUCCIONES="/tablaconstrucciones"
+
+export const VERCONSTRUCCIONPAGE ="/verconstruccionpage/:id"
+export const VERCLIENTEPAGE="/verclientepage/:id"
+export const EDITARCLIENTEPAGE = "/editarclientepage/:id"
+export const EDITARCONSTRUCCIONPAGE ="/editarconstruccionpage/:id"
+export const  NOSOTROSPAGE="/nosotros"
+
+export const DESARROLLOSPAGE ="/desarrollos"
+export const INVERSORESPAGE ="/inversores"
